@@ -4,7 +4,7 @@
   "description": "",
   "main": "\u001b[A\u001b[D\u001b[B\u001b[A\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
   "scripts": {
-    "sass": "node-sass  -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass  -w scss/ -o dist/css/ --recursive --output-style compressed"
   },
   "author": "",
   "license": "ISC",

@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "\u001b[A\u001b[D\u001b[B\u001b[A\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+  "homepage": "https://matheusrodricon.github.io/modern_portfolio",
   "scripts": {
-    "sass": "node-sass  -w scss/ -o dist/css/ --recursive --output-style compressed"
+    "sass": "node-sass  -w scss/ -o dist/css/ --recursive --output-style compressed",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
   }
 }
